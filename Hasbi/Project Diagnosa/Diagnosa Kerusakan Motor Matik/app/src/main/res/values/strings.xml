@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Diagnosa Kerusakan Motor Matik</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="diagnosa">DIAGNOSA</string>
+    <string name="data_kerusakan">DATA KERUSAKAN</string>
+    <string name="riwayat">RIWAYAT</string>
+    <string name="keluar">KELUAR</string>
+
+    //belt
+    <string name="kenali">Lakukan perawatan motor matic secara berkala yang di dalamnya termasuk merawat komponen transmisi CVT</string>
+    <string name="carge_accu">Lepaskan accu dari motor dengan obeng, lalu bersihkan accu setelah di bersihkan accu dapat kita carger hal ini memakan waktu lama</string>
+    <string name="pengapian">Pada jalur pengapian harus dirawat dengan baik secara berkala untuk mendeteksi adanya kemungkinan telah mengalami masalah yang harus segera diantisipasi sebelum merembet pada komponen lainnya.</string>
+    <string name="pergantian_belt">Melakuakan pengecekan berkala terutama saat sudah melewati batas masa pergantian belt</string>
+</resources>

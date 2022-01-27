@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DataKerusakanActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="KERUSAKAN UMUM MOTOR MATIC YAMAHA"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/vBelt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:textSize="18dp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GANGGUAN ATAU KERUSAKAN PADA V-BELT"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/kopling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2."
+            android:textSize="18sp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="GANGGUAN ATAU KERUSAKAN KOMPAS KOPLING SENTRIFUGAL"
+            android:textColor="@color/orange"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/injektor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3."
+            android:textSize="18sp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GANGGUAN ATAU KERUSAKAN PADA INJECTOR"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/busi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4."
+            android:textSize="18sp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GANGGUAN ATAU KERUSAKAN PADA BUSI"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/accu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5."
+            android:textSize="18sp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GANGGUAN ATAU KERUSAKAN PADA ACCU"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/dinamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6."
+            android:textSize="18sp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GANGGUAN ATAU KERUSAKAN PADA KOMPONEN DINAMO STARTER"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>

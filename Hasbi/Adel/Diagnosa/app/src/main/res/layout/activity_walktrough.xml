@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.WalktroughActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_walktrough"
+        android:scaleType="center"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/image_next1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rounded1"
+        app:tint="@color/blue" />
+
+    <ImageView
+        android:id="@+id/image_next2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rounded2"
+        app:tint="@color/blue"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/image_next3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rounded3"
+        app:tint="@color/blue"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="next"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/text_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conti"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text_lewati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lewati"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

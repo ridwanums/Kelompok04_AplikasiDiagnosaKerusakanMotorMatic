@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TentangFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Aplikasi ini di buat sebagai tugas pengganti ujian akhir semester di jurusan informatika Universitas Muhammadiyah Sorong"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:text="Nama Aplikasi : Diagnosa Kerusakan Motor Matic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:text="Pembuat : Kelompok 4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:text="Dosen Pengampu : Muhammad Yusuf S.Kom"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:text="Pakar : Dealer Yamaha Basuki Rahmat"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginAdminActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_admin"
+        android:layout_marginTop="40dp"
+        app:tint="@color/blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/login_admin"
+        android:textSize="25sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+   <EditText
+       android:id="@+id/text_email"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:hint="Email"
+       android:inputType="textEmailAddress"
+       android:layout_marginHorizontal="20dp"/>
+
+    <EditText
+        android:id="@+id/text_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="password"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"/>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:backgroundTint="@color/blue"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

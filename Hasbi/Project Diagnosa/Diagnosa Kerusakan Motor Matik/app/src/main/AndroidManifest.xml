@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codelabs.diagnosakerusakanmotormatik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiagnosaKerusakanMotorMatik">
+        <activity android:name=".activity.BantuanDataKerusakanActivity"></activity>
+        <activity android:name=".activity.BantaunRiwayatActivity" />
+        <activity android:name=".activity.BantuanDiagnosaActivity" />
+        <activity android:name=".activity.ViewRiwayatActivity" />
+        <activity android:name=".activity.HasilDiagnosaActivity" />
+        <activity
+            android:name=".activity.DinamoStarterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AccuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BusiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.InjektorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.KoplingAktivityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.VbeltActivityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RiwayatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DataKerusakanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DiagnosaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

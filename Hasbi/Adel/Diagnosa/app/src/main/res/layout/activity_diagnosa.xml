@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DiagnosaActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="PILIH GEJALA KERUSAKAN"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Timbulnya getaran pada saat start awal"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timbulnya suara disekitar CVT"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sering berdecit saat akselerasi"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berkuarngnya Akselerasi"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu MIL(Malfunction Indikator Lamp) berkedip sebanyak 12 kedipan"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saat motor di engkol/starter mesin tidak hidup"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mesin motor tidak hidup padahal bensin masih penuh"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saat di starter mesin tapi saat di engkol mesin motor bisa hidup"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saat di starter di tekan tidak terdengar atau terdengar tapi mesin motor tidak hidup"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_gejala10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dalam kondisi accu masih bagus saat tombol starter ditekan mesin motor tidak mau hiduo"/>
+
+
+        <Button
+            android:id="@+id/btn_diagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="Diagnosa"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="HASIL DIAGNOS"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/hasil_diagnsoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
